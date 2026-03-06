@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-class Cli < Formula
+class Nhost < Formula
   desc "Nhost CLI for local development, project management, and deployments"
   homepage "https://github.com/nhost/nhost"
   version "1.38.0"
