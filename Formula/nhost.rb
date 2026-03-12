@@ -4,7 +4,7 @@
 class Nhost < Formula
   desc "Nhost CLI for local development, project management, and deployments"
   homepage "https://github.com/nhost/nhost"
-  version "1.38.1"
+  version "1.38.2"
   license "MIT"
 
   on_macos do
