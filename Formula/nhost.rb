@@ -10,24 +10,24 @@ class Nhost < Formula
   on_macos do
     on_arm do
       url "https://github.com/nhost/nhost/releases/download/cli@#{version}/cli-#{version}-darwin-arm64.tar.gz"
-      sha256 "7a9d58647b05bea96481131821da2225ff4e5777b03487474d6c3cd76fc2d05d"
+      sha256 "fd6805ed9911c6bb548374008c6ac6304f9e769c469e71e8c64f1338b317c4db"
     end
 
     on_intel do
       url "https://github.com/nhost/nhost/releases/download/cli@#{version}/cli-#{version}-darwin-amd64.tar.gz"
-      sha256 "e647dca444f10af26e50d0f68b50511434eac6442ccdc64a0366f602d3485087"
+      sha256 "ced6d2bdb0ce6076c70cb25b39580f0fcabf119b57df5c1395bef8a778ee2b78"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nhost/nhost/releases/download/cli@#{version}/cli-#{version}-linux-arm64.tar.gz"
-      sha256 "68ada3546fd60af65aae771f835fc4d0d3a3b220413f05086690fb1b16bf5d7c"
+      sha256 "33236af3ba6bd6d673d4b5d6c88407ad56fc1986c70cb6831aa4220ac9a7aa28"
     end
 
     on_intel do
       url "https://github.com/nhost/nhost/releases/download/cli@#{version}/cli-#{version}-linux-amd64.tar.gz"
-      sha256 "b902278dca17ca7b6d36237185b0ec847d52b2878387be3b0e2ccd679300e109"
+      sha256 "7dfa678232000ae7e911cf7ef5999381b52dfd686792dca9a1c09d6fa59bbeb7"
     end
   end
 
