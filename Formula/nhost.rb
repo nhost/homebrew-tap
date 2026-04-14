@@ -4,30 +4,30 @@
 class Nhost < Formula
   desc "Nhost CLI for local development, project management, and deployments"
   homepage "https://github.com/nhost/nhost"
-  version "1.42.1"
+  version "1.43.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/nhost/nhost/releases/download/cli@#{version}/cli-#{version}-darwin-arm64.tar.gz"
-      sha256 "f7fed1453e2af339802cf67aba3f56645915bc3b6de93075aaea52287c92e6f0"
+      sha256 "e5eb228e7f036a8eb60ee62d7c152bc532aec4f5ab12bca235290cabc320f43f"
     end
 
     on_intel do
       url "https://github.com/nhost/nhost/releases/download/cli@#{version}/cli-#{version}-darwin-amd64.tar.gz"
-      sha256 "ee57d2df60516e16f93504a68d663f709567ddd66314baca48aed800c3b764d8"
+      sha256 "dd86a8fdfa62e75928c4d821d55cc74f5c3499b3a1d532a4359adf7d7af0f3ee"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nhost/nhost/releases/download/cli@#{version}/cli-#{version}-linux-arm64.tar.gz"
-      sha256 "f5d06871025b3cda8a374489801f354a922bb9ee13d590565e805fb75ede1c5d"
+      sha256 "0b80c92c790d26e3396d5311a024f45b308a02908349e44341e2d5dfadf75413"
     end
 
     on_intel do
       url "https://github.com/nhost/nhost/releases/download/cli@#{version}/cli-#{version}-linux-amd64.tar.gz"
-      sha256 "e89222af31e8a4e18661bc821b3705a99710285d928d6745f554e9316e483e31"
+      sha256 "c325f90e3ec32eeb7c1e4a2d4adc88a4de18b8d9059b5e6750a66d5fa357ac73"
     end
   end
 
